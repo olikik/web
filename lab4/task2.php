@@ -25,8 +25,8 @@
           echo('</tr>');
           $x = 0;
           $m = 0;
-          $s = 0;
-          $gc = 10;
+          $c = 0;
+          $gc = 0;
           $gm = 0;
           if(!empty($_GET['corner']))
           {
@@ -36,29 +36,30 @@
           {
               $gm = $_GET['minutes'];
           }
+          if($gc == 0 && $gm == 0)
+          {
+               $gc = 1;
+          }
           echo('<tr><td>Шаг изменения</td>');
           echo('<td>' . $gc . '&deg; ' . $gm . '&#8242;</td></tr>');
            
-          for ($i = 0; $i <= 36; $i++) 
+          while ($dc+$gc < 360)
           {
-              $s = $i * $gc;
-              $x = $s * 60 + $m;
-              if ($m >= 60) 
-              {
-                  $ds = floor($x / 60);
+              $x = $c * 60 + $m;
+              if ($m >= 60) {
+                  $dc = floor($x / 60);
                   $dm = $x % 60;
-              } 
-              else 
-              {
-                  $ds = $s;
+              } else {
+                  $dc = $c;
                   $dm = $m;
               }
               $m = $m + $gm;
-              echo ('<tr><td>');
-              echo ('sin(' . $ds . '&deg; ' . $dm . '&#8242;)');
+              echo ('<tr><td> ');
+              echo ('sin(' . $dc . '&deg; ' . $dm . '&#8242;)');
               echo ('</td><td> ');
-              echo round(sin(deg2rad($ds + ($dm/60))), 4);
+              echo round(sin(deg2rad($dc + ($dm/60))),4);
               echo ('</td></tr> ');
+              $c = $c + $gc;
           }
           echo('</table>');
       ?>

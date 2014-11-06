@@ -1,7 +1,9 @@
 ﻿<?php
     $x = 0;
     $m = 0;
-    $s = 0;
+    $c = 0;
+    $i = 0;
+    $dc = 0;
     echo ('<h2>Таблица синусов с интервалом градусов 10 и интервалом минут 6</h2>');
     echo ('<table>');
     echo ('<tr><th>');
@@ -10,22 +12,23 @@
     echo ('Значение');
     echo ('</th></tr>');
     echo ('</th></tr>');
-    for ($i = 0; $i <= 36; $i++) {
-        $s = $i * 10;
-        $x = $s * 60 + $m;
+    while ($dc+1 < 360)
+    {
+        $x = $c * 60 + $m;
         if ($m >= 60) {
-            $ds = floor($x / 60);
+            $dc = floor($x / 60);
             $dm = $x % 60;
         } else {
-            $ds = $s;
+            $dc = $c;
             $dm = $m;
         }
         $m = $m + 6;
         echo ('<tr><td> ');
-        echo ('sin(' . $ds . '&deg; ' . $dm . '&#8242;)');
+        echo ('sin(' . $dc . '&deg; ' . $dm . '&#8242;)');
         echo ('</td><td> ');
-        echo round(sin(deg2rad($ds + ($dm/60))),4);
+        echo round(sin(deg2rad($dc + ($dm/60))),4);
         echo ('</td></tr> ');
+        $c = $c + 10;
     }
     echo ('</table>');
 ?>
