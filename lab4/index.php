@@ -9,13 +9,24 @@
     echo('</th><th>');
     echo('Значение');
     echo('</th></tr>');  
+    echo('</th></tr>');
     for ($i=0; $i<=36; $i++)
     {
         $m = $m + 6;
         $s = $i * 10;
         $x = $s* 60 + $m;
+		if ($m >= 60)
+		{
+		  $ds = floor($x / 60);
+		  $dm = $x % 60;
+		}
+		else
+		{
+		  $ds = $s;
+		  $dm = $m;
+		};
         echo('<tr><td> ');
-        echo('sin(' . $s . '&deg; ' . $m . '&#8242;)');
+        echo('sin(' . $ds . '&deg; ' . $dm . '&#8242;)');
         echo('</td><td> ');
         echo(sin(deg2rad($x)));
         echo('</td></tr> ');
