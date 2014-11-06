@@ -10,21 +10,21 @@
     echo('Значение');
     echo('</th></tr>');  
     echo('</th></tr>');
-    for ($i=0; $i<=36; $i++)
+    for ($i = 0; $i <= 36; $i++)
     {
         $m = $m + 6;
         $s = $i * 10;
-        $x = $s* 60 + $m;
-		if ($m >= 60)
-		{
-		  $ds = floor($x / 60);
-		  $dm = $x % 60;
-		}
-		else
-		{
-		  $ds = $s;
-		  $dm = $m;
-		};
+        $x = $s * 60 + $m;
+	if ($m >= 60)
+	{
+	    $ds = floor($x / 60);
+	    $dm = $x % 60;
+	}
+	else
+	{
+	    $ds = $s;
+	    $dm = $m;
+	};
         echo('<tr><td> ');
         echo('sin(' . $ds . '&deg; ' . $dm . '&#8242;)');
         echo('</td><td> ');
