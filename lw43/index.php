@@ -1,7 +1,8 @@
 <?php
-	require_once('func.php');
+	require_once('/include/func.php');
     include('/template/head.html');
-	$intervDeg = getParam('intervDeg',10);
-	$intervMin = (getParam('intervMin', 6))/60;
+	include('/template/form.html');
+	$intervDeg = getParam('intervDeg', 10);
+	$intervMin = getParam('intervMin', 6);
 	printSinTable($intervDeg, $intervMin);	
 	include('/template/footer.html');
