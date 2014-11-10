@@ -1,9 +1,7 @@
 ﻿<html>
   <head>
     <title>Таблица sin</title>
-    <?php
-       echo('<link rel="stylesheet" href="css/style.css">');
-    ?>
+    <link rel="stylesheet" href="css/style.css" /> 
   </head>
   <body>
     <h2>Расчет функции sin с изменяемыми параметрами</h2>
@@ -21,59 +19,57 @@
       </fieldset>
       <hr />
       <?php
-          echo('<table class="sin">');
-          echo('<tr>');
-          echo('<th>Аргумент</th>');
-          echo('<th>Значение</th>');
-          echo('</tr>');
           $x = 0;
           $m = 0;
           $c = 0;
-          $gc = 0;
-          $gm = 0;
-          $i = 1;
+          $s = 1;
           if(!empty($_GET['corner']))
           {
-              $gc = $_GET['corner'];
+              $c = $_GET['corner'];
           }
           if(!empty($_GET['minutes']))
           {
-              $gm = $_GET['minutes'];
+              $m = $_GET['minutes'];
           }
-          if($gc == 0 && $gm == 0)
+          if($c == 0 && $m == 0)
           {
-               $gc = 1;
+              $c = 1;
+              $m = 10;
           }
-          echo('<tr><td>Шаг изменения</td>');
-          echo('<td>' . $gc . '&deg; ' . $gm . '&#8242;</td></tr>');
-           
-          while ($dc+$gc < 360)
+          if($c != 0 && $m == 0)
           {
-              $x = $c * 60 + $m;
-              if ($m >= 60) {
-                  $dc = floor($x / 60);
-                  $dm = $x % 60;
-              } else {
-                  $dc = $c;
-                  $dm = $m;
-              }
-              $m = $m + $gm;
-              echo('<tr ');
-              if(($i + 1) % 2)
+              $m = 10;
+          }
+          if($c == 0 && $m != 0)
+          {
+              $c = 1;
+          }
+          echo('<table class="task12">');
+          echo ('<tr>' . '<th>' . '</th>');
+          for ($i = 0; $i < 60; $i += $m)
+          {
+              echo ('<th class="arguments">' . $i . '&#8242; </th>');
+          };
+          echo ('</tr>');
+          for ($j = 0; $j < 360; $j += $c)
+          {
+              echo ('<tr');
+              if(($s + 1) % 2)
               {
-                  echo('class="even"');
-                  echo('><td>');
-              }
-              else
+                  echo(' class="even"');
+              } 
+              echo ('>' . '<td class="arguments">');
+              echo ($j . '&deg;');
+              echo ('</td>');
+              $x = $j * 60;
+              for ($i = 0; $i < 60; $i += $m)
               {
-                  echo('><td class="arguments">');
-              }
-              echo('sin(' . $dc . '&deg; ' . $dm . '&#8242;)');
-              echo('</td><td> ');
-              echo round(sin(deg2rad($dc + ($dm/60))),4);
-              echo('</td></tr> ');
-              $c = $c + $gc;
-              $i++;
+                  echo ('<td>');
+                  echo round(sin(deg2rad($j + ($i / 60))), 4);
+                  echo ('</td>');
+              };
+              $s++;
+              echo ('</tr>');
           }
           echo('</table>');
       ?>

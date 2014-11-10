@@ -4,6 +4,16 @@ body
     font-size: 12px;
 }
 
+table.task12
+{
+    border-collapse: collapse;
+}
+
+table.task12 th, td
+{
+    border: 1px solid black;
+}
+
 table.sin
 {
     border-collapse: collapse;
