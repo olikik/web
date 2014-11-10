@@ -1,10 +1,10 @@
 <?php
+	function getParam($name, $default_value)
+	{
+		return isset($_GET[$name]) ? $_GET[$name] : $default_value;
+	}
 	function printSinTable($intervDeg, $intervMin)
 	{
-
-	    echo "<table>
-		        <tr class = 'info'>
-				  <td>sin</td>";
 		for ($min = 0; $min <= 60; $min += $intervMin * 60)
 		{
 			echo "<td>".$min."</td>";
@@ -22,6 +22,10 @@
 				else 
 				  echo "<td>";
 				echo $sin."</td>";
+				if ($sin == 1)
+				{
+					break;
+				}
 			}
 			 echo "</tr>";
 		}
