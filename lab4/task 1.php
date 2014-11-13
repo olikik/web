@@ -1,4 +1,5 @@
 <?php
+
     $title = "Задание №1";
     $style = "css/style.css";
     $body = "";
@@ -26,4 +27,5 @@
     require_once("functions/print_table.php");
     require_once("templates/body.php");
     require_once("templates/foot.php");
+    
 ?>
