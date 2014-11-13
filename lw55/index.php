@@ -2,6 +2,5 @@
     require_once('/include/func.php');
     include('/template/head.html');
     include('/template/form.html');
-    $sec = CheckPass();
-    echo "<p>Надежность: </p>".$sec;
+    CheckIdentifier();
     include('/template/footer.html');

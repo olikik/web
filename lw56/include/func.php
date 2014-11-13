@@ -2,31 +2,24 @@
 
     function PassTrue($pass)   
     { 
-        return (preg_match("/^[a-zA-Z0-9]+$/",$pass));
+        return (preg_match("/^[a-zA-Z0-9]+$/", $pass));
     }
     
     function CountNum($pass)
     {
-        return strlen(preg_replace('/[^\d]/','',$pass));
+        return strlen(preg_replace('/[^\d]/', '', $pass));
     }
     
     function CountUpper($pass)
     {
-        return strlen(preg_replace('/[^A-Z]/','',$pass));
+        return strlen(preg_replace('/[^A-Z]/', '', $pass));
     }
     
     function CountLover($pass)
     {
-        return strlen(preg_replace('/[^a-z]/','',$pass));
+        return strlen(preg_replace('/[^a-z]/', '', $pass));
     }
     
-    function DelRepeat($pass)
-    {
-        $w = preg_replace('#([a-zA-Z1-9]){1,}\\1{1,}#', '', $pass);
-        echo $w;
-        die;
-    }
-
     function CountDubbleSimvol($pass)
     {
         $dubble = 0;
@@ -49,10 +42,11 @@
         $sec = 0;
 		if (isset($_GET['pass']) and($_GET['pass']) != '')
 		{
-		    $pass = $_GET['pass'];  
+		    $pass = trim ($_GET['pass']);  
 		    if(!PassTrue($pass))
             {
                 echo "error pass!";
+                die;
             }
             else
             {
@@ -86,7 +80,7 @@
                 //За каждый повторяющийся символ в пароле вычитается количество повторяющихся символов
                 $sec = $sec - $count_dubble;
             }
-            echo "<p>Надежность: </p>".$sec;
+            return ($sec);
 		}
         
     }
