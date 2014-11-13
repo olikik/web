@@ -1,6 +1,8 @@
 <?php
-    require_once('/include/func.php');
-    include('/template/head.html');
-    include('/template/form.html');
-    PrintQueryString();
-    include('/template/footer.html');
+    header("Content-type:text/plain");
+    $query_string = $_SERVER["QUERY_STRING"];
+    if ($query_string != '')
+    {
+        $html = "Query string = '" . $query_string . "'.";
+        echo($html);
+    }

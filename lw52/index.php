@@ -1,6 +1,8 @@
 <?php
-    require_once('/include/func.php');
-    include('/template/head.html');
-    include('/template/form.html');
-    PrintName();
-    include('/template/footer.html');
+    header("Content-type:text/plain");
+    if (isset($_GET['name']) and ($_GET['name']) != '')
+    {
+		  $html = "Hello, Dear " . $_GET['name'] . "!";
+          echo($html); 
+	}
+
