@@ -1,0 +1,137 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+#back
+{
+    height: 319px;
+    width: 348px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    background: url(../images//task.png);
+    visibility: visible;
+}
+
+#container
+{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    height: 320px;
+    width: 340px;
+    display: block;
+    padding-left: 10px;
+}
+
+.content
+{
+    height: 285px;
+    padding-left: 50px;
+    margin-top: 15px;
+    border-left: 1px solid #666;
+}
+
+h1
+{
+    font: 23px Arial;
+    margin-bottom: 12px;
+}
+
+ul
+{
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    list-style: none;
+}
+
+li
+{
+    display: inline-block;
+    height: 30px;
+    width: 177px;
+    padding-top: 13px;
+    padding-left: 45px;
+    margin-left: 0px;
+    border-bottom: 1px dashed #666;
+}
+
+li:first-child
+{
+    height: 26px;
+    padding-top: 17px;
+}
+
+li:last-child
+{
+    height: 70px;
+    padding-top: 16px;
+    border: none;
+    letter-spacing: 0.3px;
+    line-height: 25px;
+}
+
+li:last-child>span
+{
+    letter-spacing: 1.7px;
+}
+
+.tel
+{
+    display:block;
+    height: 30px;
+    width: 30px;
+    margin-left: -38px;
+    margin-top: -10px;
+    background: url(../images/phone.png) no-repeat;
+    background-position: left;
+    float: left;
+}
+
+.fax
+{
+    display:block;
+    height: 30px;
+    width: 30px;
+    margin-left: -44px;
+    margin-top: -7px;
+    background: url(../images/fax.png) no-repeat;
+    background-position: left;
+    float: left;
+}
+
+.email
+{
+    display:block;
+    height: 30px;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: -7px;
+    background: url(../images/email.png) no-repeat;
+    background-position: left;
+    float: left;
+}
+
+.adress
+{
+    display:block;
+    height: 30px;
+    width: 30px;
+    margin-left: -45px;
+    margin-top: -8px;
+    background: url(../images/adress.png) no-repeat;
+    background-position: left;
+    float: left;
+}
+.without
+{
+    border: none;
+}
