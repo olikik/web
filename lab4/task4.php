@@ -1,6 +1,6 @@
 <?php
     
-    $title = "Çàäàíèå ¹4";
+    $title = "Ð—Ð°Ð´Ð°Ð½Ð¸Ðµ â„–4";
     $style = "css/task4.css";
     
     include("templates/head.php");
