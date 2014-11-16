@@ -2,14 +2,14 @@
 
     function create_table_structure($step)
     {
-        $first_line = 0;
+        $first_line = '';
         if ($step == '' or $step == 0)
         {
             $step = 10;
         }
-        for ($i = 0; $i <= 60 - $step; $i += $step)
+        for ($i = 0; $i <= 60; $i += $step)
         {
-            $first_line .= ('<th>' . $i . '&#8242; </th>');
+            $first_line .= ('<th class="arguments">' . $i . '&#8242; </th>');
         }
         return $first_line;
     }

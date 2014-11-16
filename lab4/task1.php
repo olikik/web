@@ -1,7 +1,9 @@
 <?php
-
+    
+    require_once("includes/req.inc.php");
+    
     $title = "Задание №1";
-    $style = "css/style.css";
+    $style = "css/task12.css";
     $body = "";
 
     //variable for sin()
@@ -9,9 +11,6 @@
     $i = 0;
     $step_corner = 10;
     $step_minute = 6;
-
-    require_once("functions/base.php");
-    require_once("functions/sin.php");
 
     //check parametrs
     if ($step_corner == 0 && $step_minute == 0)
@@ -23,9 +22,9 @@
         $step_minute = 10;
     }
 
-    require_once("templates/head.php");
-    require_once("functions/print_table.php");
-    require_once("templates/body.php");
-    require_once("templates/foot.php");
+    include("templates/head.php");
+    $body .= print_table_of_sinus($step_corner, $step_minute, $body);
+    include("templates/body.php");
+    include("templates/foot.php");
     
 ?>
