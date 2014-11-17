@@ -9,8 +9,13 @@
     {
         return (filter_var($str,FILTER_VALIDATE_INT));
     }
+    
+    function GetParam($name, $default_value)
+	{
+		return isset($_GET[$name]) ? $_GET[$name] : $default_value;
+	}
 
-    function Survey_Saver()
+    function SurveySave()
     {
 
         $first_name = '';
@@ -50,3 +55,23 @@
         fclose($fp);
         }
     }
+    
+    function GetArraySurvey($first_name, $last_name, $email, $age)
+    {
+        return array(
+        "First Name:" => $first_name,
+        "Last Name:" => $last_name,
+        "Email:" => $email,
+        "Age:" => $age
+        );
+    }
+    
+    function SaveSurvay($survay, $file_name)
+    {
+        $fp = fopen($file_name, "w");      
+        foreach($survay as $key => $value)
+        {
+             fwrite($fp,$key.' '.$value."\n");
+        }
+    }
+    
