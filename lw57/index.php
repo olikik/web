@@ -4,8 +4,8 @@
     include('/template/form.html');
     if(isset($_GET['email']))
     {
-        $first_name = GetParam('first_name','');
-        $last_name = GetParam('last_name', '');
+        $firstName = GetParam('first_name','');
+        $lastName = GetParam('last_name', '');
         $email = GetParam('email', '');
         $age = GetParam('age', '');
         if (!EmailTrue($email))
@@ -15,9 +15,9 @@
         } 
         else
         {
-            $survey = GetArraySurvey($first_name, $last_name, $email, $age);
-            $file_name = './data/'.$email.'.txt';
-            SaveSurvay($survey, $file_name);
+            $survey = GetArraySurvey($firstName, $lastName, $email, $age);
+            $fileName = './data/'.$email.'.txt';
+            SaveSurvey($survey, $fileName);
         }
     }   
     include('/template/footer.html');
