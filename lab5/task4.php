@@ -5,7 +5,7 @@
     if (isset($_GET['text']))
         $string = $_GET['text'];
     else
-        die('Параметр не был передан!');
+        die('РџР°СЂР°РјРµС‚СЂ РЅРµ Р±С‹Р» РїРµСЂРµРґР°РЅ!');
     $result = remove_extra_blank($string);
     echo $result;
 
