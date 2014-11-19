@@ -9,44 +9,29 @@
     {
         return (filter_var($str,FILTER_VALIDATE_INT));
     }
+    
+    function GetParam($name, $defaultValue)
+	{
+		return isset($_GET[$name]) ? $_GET[$name] : $defaultValue;
+	}
 
-    function Survey_Saver()
+    function GetArraySurvey($firstName, $lastName, $email, $age)
     {
-
-        $first_name = '';
-        $last_name = '';
-        $age = '';
-        if(isset($_GET['first_name']))
+        return array
+        (
+            "First Name:" => $firstName,
+            "Last Name:" => $lastName,
+            "Email:" => $email,
+            "Age:" => $age
+        );
+    }
+    
+    function SaveSurvey($survey, $fileName)
+    {
+        $fp = fopen($fileName, "w");      
+        foreach($survey as $key => $value)
         {
-            $first_name = $_GET['first_name'];
-
-
-        if(isset($_GET['last_name']))
-        {
-            $last_name = $_GET['last_name'];
-        }
-
-        if(isset($_GET['email']))
-        {
-            $email = $_GET['email'];
-            if (!EmailTrue($email))
-            {
-                echo "<p>Email error!</p>";
-                die;
-            }
-        }
-
-        if(isset($_GET['age']))
-        {
-            $age = $_GET['age'];
-        }
-
-        $file_name = './data/'.$email.'.txt';
-        $fp = fopen($file_name, "w");
-        fwrite($fp,"First Name: ". $first_name."\n");
-        fwrite($fp,"Last Name: ". $last_name."\n");
-        fwrite($fp,"Email: ".$email."\n");
-        fwrite($fp,"Age: ".$age."\n");
-        fclose($fp);
+             fwrite($fp, $key . ' ' . $value . "\n");
         }
     }
+    
