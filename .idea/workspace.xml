@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c69fee28-11c5-4000-9085-a9146a1a9e4f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lw53/include/func.php" afterPath="$PROJECT_DIR$/lw53/include/func.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lw56/include/func.php" afterPath="$PROJECT_DIR$/lw56/include/func.php" />
+      <change type="DELETED" beforePath="C:\USBWebserver v8.6\root\web\~$lw5.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lw57/include/func.php" afterPath="$PROJECT_DIR$/lw57/include/func.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lw57/index.php" afterPath="$PROJECT_DIR$/lw57/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="func.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lw58/include/func.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lw57/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="9" selection-start="725" selection-end="725" vertical-scroll-proportion="0.64504284" vertical-offset="0" max-vertical-offset="867">
+            <state line="17" column="31" selection-start="405" selection-end="405" vertical-scroll-proportion="0.35373318" vertical-offset="0" max-vertical-offset="817">
               <folding />
             </state>
           </provider>
@@ -38,7 +40,7 @@
       <file leaf-file-name="func.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lw57/include/func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="27" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-26.538462" vertical-offset="126" max-vertical-offset="969">
+            <state line="12" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -47,7 +49,7 @@
       <file leaf-file-name="test@test.ru.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lw57/data/test@test.ru.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -56,7 +58,7 @@
       <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lw58/template/form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -87,14 +89,14 @@
         <option value="$PROJECT_DIR$/lw51/include/func.php" />
         <option value="$PROJECT_DIR$/lw56/include/func.php" />
         <option value="$PROJECT_DIR$/lw53/include/func.php" />
-        <option value="$PROJECT_DIR$/lw57/index.php" />
         <option value="$PROJECT_DIR$/lw58/template/form.html" />
         <option value="$PROJECT_DIR$/lw58/index.php" />
         <option value="$PROJECT_DIR$/lw57/data/test@test.ru.txt" />
         <option value="$PROJECT_DIR$/lw57/data/1@1.ru.txt" />
         <option value="$PROJECT_DIR$/lw57/template/form.html" />
-        <option value="$PROJECT_DIR$/lw57/include/func.php" />
         <option value="$PROJECT_DIR$/lw58/include/func.php" />
+        <option value="$PROJECT_DIR$/lw57/include/func.php" />
+        <option value="$PROJECT_DIR$/lw57/index.php" />
       </list>
     </option>
   </component>
@@ -131,6 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,56 +149,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lw58" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lw58" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lw58" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -267,9 +220,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lw42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lw42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lw41" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,15 +310,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17625459" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17870256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -349,93 +347,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lw51/template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.14565483" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lw51/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="134" selection-end="134" vertical-scroll-proportion="0.08323134" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lw57/test@test.ru.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lw57/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.124847" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw54/include/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw56/include/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="44" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.9902081" vertical-offset="653" max-vertical-offset="1649">
-          <folding />
-        </state>
+        <state line="86" column="44" selection-start="3215" selection-end="3215" vertical-scroll-proportion="0.9902081" vertical-offset="653" max-vertical-offset="1649" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw53/include/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="696" selection-end="696" vertical-scroll-proportion="0.47858018" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
+        <state line="23" column="40" selection-start="696" selection-end="696" vertical-scroll-proportion="0.47858018" vertical-offset="0" max-vertical-offset="817" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw58/template/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw58/template/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw57/data/1@1.ru.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="12" selection-end="12" vertical-scroll-proportion="0.08066429" vertical-offset="0" max-vertical-offset="843">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="12" selection-end="12" vertical-scroll-proportion="0.08066429" vertical-offset="0" max-vertical-offset="843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw58/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.124847" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.124847" vertical-offset="0" max-vertical-offset="817" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw57/template/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="114" selection-end="114" vertical-scroll-proportion="0.04161567" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
+        <state line="2" column="41" selection-start="114" selection-end="114" vertical-scroll-proportion="0.04161567" vertical-offset="0" max-vertical-offset="817" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw58/template/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+        <state line="4" column="7" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
@@ -447,16 +406,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lw57/include/func.php">
+    <entry file="file://$PROJECT_DIR$/lw42/include/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="27" selection-start="1075" selection-end="1075" vertical-scroll-proportion="-26.538462" vertical-offset="126" max-vertical-offset="969">
+        <state line="14" column="5" selection-start="140" selection-end="248" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lw41/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="554" selection-end="554" vertical-scroll-proportion="0.14565483" vertical-offset="357" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lw58/include/func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="9" selection-start="725" selection-end="725" vertical-scroll-proportion="0.64504284" vertical-offset="0" max-vertical-offset="867">
+        <state line="15" column="36" selection-start="290" selection-end="290" vertical-scroll-proportion="0.31211752" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lw57/include/func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lw57/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="405" selection-end="405" vertical-scroll-proportion="0.35373318" vertical-offset="0" max-vertical-offset="817">
           <folding />
         </state>
       </provider>
