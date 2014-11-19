@@ -1,31 +1,30 @@
-﻿<?php
-    echo('<link rel="stylesheet" href="css/style.css">');
+<?php
+    
+    require_once("includes/req.inc.php");
+    
+    $title = "Задание №1";
+    $style = "css/task12.css";
+    $body = "";
+
+    //variable for sin()
     $x = 0;
-    $m = 0;
-    $c = 0;
     $i = 0;
-    echo ('<h2>Таблица синусов с интервалом градусов 10 и интервалом минут 6</h2>');
-    echo ('<table class="task12">');
-    echo ('<tr>' . '<th>' . '</th>');
-    for ($i = 0; $i < 60; $i += 6)
+    $step_corner = 10;
+    $step_minute = 6;
+
+    //check parametrs
+    if ($step_corner == 0 && $step_minute == 0)
     {
-        echo ('<th>' . $i . '&#8242; </th>');
-    };
-    echo ('</tr>');
-    while ($c < 360)
-    {
-        echo ('<tr>' . '<td>');
-        echo ($c . '&deg;');
-        echo ('</td>');
-        $x = $c * 60;
-        for ($m = 0; $m < 60; $m += 6)
-        {
-            echo ('<td>');
-            echo round(sin(deg2rad($c + ($m / 60))), 4);
-            echo ('</td>');
-        };
-        echo ('</tr>');
-        $c += 10;
+        $step_minute = 10;
     }
-    echo ('</table>');
+    if ($step_corner == 0)
+    {
+        $step_minute = 10;
+    }
+
+    include("templates/head.php");
+    $body .= print_table_of_sinus($step_corner, $step_minute, $body);
+    include("templates/body.php");
+    include("templates/foot.php");
+    
 ?>
