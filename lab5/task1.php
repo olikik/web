@@ -8,5 +8,3 @@
     echo '<br>' . 'Query string =   \'';
     echo $_SERVER["QUERY_STRING"];
     echo '\'';
-    
-?>

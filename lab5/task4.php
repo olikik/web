@@ -8,5 +8,3 @@
         die('Параметр не был передан!');
     $result = remove_extra_blank($string);
     echo $result;
-
-?>
