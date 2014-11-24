@@ -8,7 +8,7 @@
     echo '</div>';
     echo '<div class="template_mainblock">';
     include ("content/task4/task4_mainblock.html");
-    echo '</div>';
+    echo '</div><div class="clear"></div>';
     echo '</div>';
     echo '<div class="template_footer">';
     include ("content/task4/task4_footer.html");
