@@ -14,9 +14,8 @@
         else
         {
             $file_name = '../lw57/data/' . $email . '.txt';
-            GetData($file_name);
-        }
-            
-        
+            echo GetData($file_name);
+			
+        } 
     }
     include('/template/footer.html');

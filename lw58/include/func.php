@@ -14,7 +14,7 @@
     {
         if(file_exists($file_name))
         {
-            $fp = fopen($file_name,"r");
+            $fp = fopen($file_name, "r");
             $data = file($file_name);
             fclose($fp);
         }
@@ -27,7 +27,7 @@
         $html = "Данные о пользователе: <br>";
         for($i = 0; $i < 4; $i++)
         {
-            $html .= $data[$i]."<br>";
+            $html .= $data[$i] . "<br>";
         }
         return $html;
     }

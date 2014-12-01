@@ -12,7 +12,7 @@ CREATE TABLE dvd(
 CREATE TABLE customer (
   customer_id int(11) AUTO_INCREMENT,
   first_name varchar(100),
-  last_name varchar(256),
+  last_name varchar(255),
   passport_code varchar(10),
   registration_date date,
   PRIMARY KEY (customer_id)
