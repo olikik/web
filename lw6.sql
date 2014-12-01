@@ -1,4 +1,4 @@
-﻿CREATE DATABASE rental;
+CREATE DATABASE rental;
 
 USE rental;
 
@@ -44,10 +44,10 @@ VALUES
 (4, 'Елки', '2010');
 
 INSERT INTO rental.offer 
-(offer_id, dvd_id, customer_id, offer_date, return_date) 
+(`offer_id`, `dvd_id`, `customer_id`, `offer_date`, `return_date`) 
 VALUES 
 (NULL, '1', '1', '2014-11-19', '2014-11-22'), 
-(NULL, '2', '2', '2013-11-19', NULL);
+(NULL, '2', '2', '2013-11-19', '2013-11-22');
 
 SELECT * 
 FROM dvd 
@@ -56,11 +56,11 @@ ORDER BY title ASC ;
 
 SELECT dvd.title, dvd.production_year
 FROM dvd
-INNER JOIN offer ON offer.dvd_id = dvd.dvd_id
-WHERE offer.return_date is NULL;
+INNER JOIN offer ON offer.dvd_id = dvd.dvd_id;
 
 SELECT customer.first_name, customer.last_name, dvd.title, dvd.production_year, offer.offer_date
 FROM offer
 INNER JOIN dvd ON offer.dvd_id = dvd.dvd_id
 INNER JOIN customer ON offer.customer_id = customer.customer_id
 WHERE offer.offer_date LIKE  '%2014%';
+

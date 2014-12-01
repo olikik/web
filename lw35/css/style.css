@@ -1,0 +1,27 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+a, h1, p, ul, li, div
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6B6B6B;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float: right;
+}
+
+.clear
+{
+	clear: both;
+}
+
